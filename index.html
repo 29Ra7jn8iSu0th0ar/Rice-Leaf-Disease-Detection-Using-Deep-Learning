@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Image Prediction</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Rice Leaf Disease Detection</h1>
+        <div id="image-container">
+            <img id="selected-image" src="#" alt="Selected Image">
+        </div>
+        <form id="upload-form" action="{{ url_for('predict') }}" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" id="file" accept=".jpg, .jpeg, .png" onchange="displayImage(this);" required>
+            <button type="submit">Predict</button>
+        </form>
+        <div id="result-container">
+            {% if prediction %}
+                <p>Predicted Disease: {{ prediction }}</p>
+            {% endif %}
+        </div>
+    </div>
+    <script>
+        function displayImage(input) {
+            var file = input.files[0];
+            if (file) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    document.getElementById('selected-image').src = e.target.result;
+                };
+                reader.readAsDataURL(file);
+            }
+        }
+    </script>
+</body>
+</html>
