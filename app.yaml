@@ -1,0 +1,15 @@
+runtime: python311  # Python 3.11 runtime
+
+entrypoint: gunicorn -b :$PORT app:app  # Gunicorn se Flask app run
+
+env: standard
+
+instance_class: F2  # Thoda zyada RAM/CPU, ML models ke liye better
+
+automatic_scaling:
+  max_instances: 2   # Maximum 2 instances, default 20 se kam for cost
+  min_instances: 0   # Idle state me 0 instance, cost save
+
+handlers:
+- url: /.*
+  script: auto
