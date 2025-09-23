@@ -59,19 +59,19 @@ This project demonstrates how machine learning and deep learning can be applied 
 ## Screenshots 
 
 ### Home Page  
-![Homepage](Rice-Leaf-Disease-Detection-Using-Deep-Learning/demo_images/Screenshot(89).png)  
+![Homepage](demo_images/Screenshot(89).png)  
 
-### Home Page  
-![Homepage](Screenshots/Home-Django-Ecommerce-Site.png)  
+### AI Engine  
+![AI Engine ](demo_images/Screenshot(85).png)  
 
-### Home Page  
-![Homepage](Screenshots/Home-Django-Ecommerce-Site.png)  
+### AI Engine  
+![details](demo_images/Screenshot(86).png)  
 
-### Home Page  
-![Homepage](Screenshots/Home-Django-Ecommerce-Site.png)  
+### Supplements  
+![Supplements](demo_images/Screenshot(87).png)   
 
-### Home Page  
-![Homepage](Screenshots/Home-Django-Ecommerce-Site.png)  
+### Contact-Us  
+![Contact-Us](demo_images/Screenshot(90).png)  
 
-### Home Page  
-![Homepage](Screenshots/Home-Django-Ecommerce-Site.png)  
+
+
