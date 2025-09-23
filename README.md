@@ -55,3 +55,23 @@ This project aims to develop a system for detecting and classifying diseases in 
 This project demonstrates how machine learning and deep learning can be applied to address agricultural challenges. By employing multiple models and extensive data preprocessing, the system provides accurate and reliable detection of rice leaf diseases. This can help farmers take timely action, contributing to improved crop management and food security.
 
 ---
+
+## Screenshots 
+
+### Home Page  
+![Homepage](Rice-Leaf-Disease-Detection-Using-Deep-Learning/demo_images/Screenshot(89).png)  
+
+### Home Page  
+![Homepage](Screenshots/Home-Django-Ecommerce-Site.png)  
+
+### Home Page  
+![Homepage](Screenshots/Home-Django-Ecommerce-Site.png)  
+
+### Home Page  
+![Homepage](Screenshots/Home-Django-Ecommerce-Site.png)  
+
+### Home Page  
+![Homepage](Screenshots/Home-Django-Ecommerce-Site.png)  
+
+### Home Page  
+![Homepage](Screenshots/Home-Django-Ecommerce-Site.png)  
